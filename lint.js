@@ -1,4 +1,3 @@
-cat > lint.js << 'EOF'
 const fs = require("fs");
 
 console.log("Running simple lint...");
@@ -12,4 +11,3 @@ if (content.includes("console.log('bad')")) {
 
 console.log("Lint passed");
 process.exit(0);
-EOF

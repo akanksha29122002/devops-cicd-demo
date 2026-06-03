@@ -1,4 +1,3 @@
-cat > server.js << 'EOF'
 const express = require("express");
 
 const app = express();
@@ -20,4 +19,3 @@ app.get("/health", (req, res) => {
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
 });
-EOF

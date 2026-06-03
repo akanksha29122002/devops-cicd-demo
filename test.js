@@ -1,4 +1,4 @@
-cat > test.js << 'EOF'
+
 const fs = require("fs");
 
 console.log("Running basic tests...");
@@ -10,4 +10,3 @@ if (!fs.existsSync("server.js")) {
 
 console.log("All tests passed");
 process.exit(0);
-EOF
