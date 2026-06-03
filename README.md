@@ -1,1 +1,1 @@
-# devops-cicd-demo
+CI/CD demo project
